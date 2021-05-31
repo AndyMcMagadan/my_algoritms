@@ -50,11 +50,9 @@ def func_3():
 def func_4():
     i = 0
     for k, v in Counter(array).items():
-        if i < 1:
-            return f'Чаще всего встречается число {k}, ' \
-                   f'оно появилось в массиве {v} раз(а)'
-        else:
-            break
+        return f'Чаще всего встречается число {k}, ' \
+               f'оно появилось в массиве {v} раз(а)'
+
 
 
 print(func_1())
